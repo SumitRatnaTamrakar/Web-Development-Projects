@@ -1,0 +1,44 @@
+/* Write your code here: */
+
+/* Group selector */
+h1, h2{
+    color: blueviolet;
+}
+
+/* Parent-child selector */
+.box > p{
+    color: firebrick
+}
+
+/* 
+Alternatively, in this case
+.box > .done{
+    color: firebrick
+} */
+
+
+/* Ancestor-descendent selector */
+.box li{
+    color: blue
+}
+
+/* Alternatively
+.list li {
+    color: blue
+} */
+
+li.done {
+    color: seagreen
+}
+
+/* Combination of combining selectors */
+ul p.done { 
+    font-size: 0.5rem;
+}
+/* Here a combination of group and chained selectors */
+
+/* Alternatively
+ul > p.done {
+    font-size: 0.5rem;
+} */
+ /* Here a combination of Parent-child and chained selectors */
